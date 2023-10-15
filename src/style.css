@@ -1,0 +1,74 @@
+/* Use this file to import fonts */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;800&display=swap');
+
+:root {
+    --teal-medium: #00b5ad;
+    --teal-highlight: #00d7d0;
+    --teal-dark: #01827f;
+
+    --orange-medium: #DF3E00;
+    --orange-highlight: #E86D00;
+    --orange-dark: #C43300;
+
+    --yellow-medium: #FFA200;
+    --yellow-highlight: #FFCF07;
+    --yellow-dark: #E8AD0C;
+
+    --body-medium: #cecece;
+    --body-bright: #ffffff;
+    --body-dark: #a9a9a9;
+
+    --ui-gray-light: #a9a9a9;
+    --ui-gray-medium: #696969;
+    --ui-gray-dark: #333333;
+
+    --page-background: #151515;
+
+    --notice-color: #ffe77c;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 10px;
+  background-color: #151515;
+
+  font-family: 'League Spartan', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--body-medium);
+}
+
+.content-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  padding: 10px 0px;
+  /* background: #00b5ad; */
+}
+
+button {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+
+  background-color: var(--teal-dark);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+  padding: 10px;
+}
+
+button:hover {
+  background-color: var(--teal-medium);
+}
